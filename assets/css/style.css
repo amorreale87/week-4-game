@@ -23,11 +23,30 @@ font-family: 'Kaushan Script', cursive;
 font-size: 60px;
 }
 
+.h2-large{
+	font-size:40px;
+}
+
+
+.container{
+	text-align: center;
+}
+
 img{
 
 	width: 200px;
 	height:200px;
+	margin-left: 20px;
+	margin-right: 20px;
 
+	display:inline-block;
+}
+
+img:hover{
+
+	cursor:pointer;
+	
+	opacity: .7;
 }
 
 #instructions p{
