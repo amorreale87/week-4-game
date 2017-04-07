@@ -1,0 +1,36 @@
+body{
+background-image: url("../img/swirl_pattern.png"); 
+background-image: url("../img/confectionary.png"); 
+background-image: url("../img/pixel_weave.png"); 
+background-image: url("../img/skulls.png"); 
+
+font-family: 'Cinzel', serif;
+font-size: 18px;
+font-weight: bold;
+
+
+}
+
+h1,h2,h3{
+
+font-weight: bolder; 
+
+}
+
+h1{
+
+font-family: 'Kaushan Script', cursive;
+font-size: 60px;
+}
+
+img{
+
+	width: 200px;
+	height:200px;
+
+}
+
+#instructions p{
+
+	
+}

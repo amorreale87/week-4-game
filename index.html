@@ -1,0 +1,105 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Baller Game</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	
+	
+
+	<!-- Game javascript -->
+	<script src="assets/javascript/game.js"></script>
+
+	<!-- style.css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Google Fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Kaushan+Script" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1>Crystal Collector</h1>
+				<h2>The Game</h2>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+				<div id="instructions" class="well well-lg">
+					<p>You will be given a random number at the start of the game.</p>
+
+					<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+					<p>You win the game by matching your total score to the random number listed below. You lose the game if your total score exceeds the random number. </p>
+
+					<p>The value of each crystal is hidden from you until you click on it.</p>
+
+					<p>Each time the game starts, the game will change the value of the crystals</p>
+
+				</div>
+
+				<div class="well well-lg col-lg-6">
+					<h2 class="text-center">Target Number</h2>
+					<h3 id="target"></h3>
+					
+				</div>
+
+				<div class="well well-lg col-lg-6">
+					<h2 class="text-center">Score</h2>
+					<h3 id="score"></h3>
+					
+				</div>
+
+				<div id="jewels" class="well well-lg col-lg-12">
+					
+					<img src="assets/img/citrine.png" alt="citrine">
+					<img src="assets/img/emerald.png" alt="emerald">
+					<img src="assets/img/saphire.png" alt="saphire">
+					<img src="assets/img/ruby.png" alt="ruby">
+				</div>
+				
+				<div class="well well-lg col-lg-6">
+					<h2 class="text-center">Win</h2>
+					<h3 id="win"></h3>
+					
+				</div>
+
+				<div class="well well-lg col-lg-6">
+					<h2 class="text-center">Loss</h2>
+					<h3 id="loss"></h3>
+					
+				</div>
+
+
+
+	
+	</div>	
+
+
+
+
+	
+</body>
+</html>
